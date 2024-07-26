@@ -1,6 +1,7 @@
 # homebrew-numero
 
-This is a 3<sup>rd</sup> party tap for [Homebrew](https://brew.sh/). It provides formulae used by the engineering team at [Numero](https://numero.ai)
+This is a 3<sup>rd</sup> party tap for [Homebrew](https://brew.sh/). 
+It provides formulae used by the engineering team at [Numero](https://numero.ai).
 
 ## Installation and usage
 
