@@ -1,7 +1,7 @@
 class DynamodbLocal < Formula
   desc "Development tool for DynamoDB"
   homepage "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
-  version "1.0.0"
+  version "1.0.1"
 
   url "https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.tar.gz",
     verified: "d1ni2b6xgvw0s0.cloudfront.net/"
@@ -20,5 +20,7 @@ class DynamodbLocal < Formula
     working_dir var
     log_path var/"log/dynamodb-local.log"
     error_log_path var/"log/dynamodb-local.log"
+    keep_alive true
+    run_type :immediate
   end
 end
