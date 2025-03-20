@@ -8,7 +8,7 @@ class DynamodbLocal < Formula
 
   sha256 "9805d95fe2f5efecfd7f7fec32af8efb32dc83b60a18a2fbd818614ed4b6c6ec"
 
-  depends_on ["openjdk", ">= 11"]
+  depends_on "openjdk" => ">= 11"
 
   def install
     libexec.install Dir["*"]
