@@ -6,7 +6,7 @@ class DynamodbLocal < Formula
   url "https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.tar.gz",
     verified: "d1ni2b6xgvw0s0.cloudfront.net/"
 
-  sha256 "f5296028d645bb2d3f99fede0a36945956eb7386174430e75c00e6fb1b34e78d"
+  sha256 "9805d95fe2f5efecfd7f7fec32af8efb32dc83b60a18a2fbd818614ed4b6c6ec"
 
   depends_on ["openjdk", ">= 11"]
 
